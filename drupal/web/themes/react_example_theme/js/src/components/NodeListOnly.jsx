@@ -14,7 +14,7 @@ function isValidData(data) {
 
 const NodeItem = ({drupal_internal__nid, title}) => (
   <div>
-    <a href={`/node/${drupal_internal__nid}`}>{title}</a>
+    13131313<a href={`/node/${drupal_internal__nid}`}>{title}</a>
   </div>
 );
 
@@ -49,7 +49,7 @@ const NodeListOnly = () => {
 
   return (
     <div>
-      <h2>Site content</h2>
+      <h2>Site content131313</h2>
       {content ? (
         <>
           <label htmlFor="filter">Type to filter:</label>

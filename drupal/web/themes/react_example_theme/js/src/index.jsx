@@ -6,6 +6,8 @@ import { hot } from 'react-hot-loader/root';
 import DrupalProjectStats from './components/DrupalProjectStats';
 import NodeListOnly from "./components/NodeListOnly";
 import NodeReadWrite from "./components/NodeReadWrite";
+import CustomParagraph from "./components/CustomParagraph";
+import CustomParagraphNew from "./components/CustomParagraphNew";
 
 const Main = hot(() => (
   <>
@@ -22,3 +24,5 @@ const Main = hot(() => (
 ));
 
 ReactDOM.render(<Main/>, document.getElementById('react-app'));
+ReactDOM.render(<CustomParagraph/>, document.getElementById('react-custom-paragraph'));
+ReactDOM.render(<CustomParagraphNew/>, document.getElementById('react-custom-paragraph-new'));
