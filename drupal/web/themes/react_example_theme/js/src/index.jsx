@@ -8,6 +8,9 @@ import NodeListOnly from "./components/NodeListOnly";
 import NodeReadWrite from "./components/NodeReadWrite";
 import CustomParagraph from "./components/CustomParagraph";
 import CustomParagraphNew from "./components/CustomParagraphNew";
+import CustomParagraphsRoot from "./components/CustomParagraphsRoot";
+import CustomParagraphImage from "./components/CustomParagraphImage";
+import CustomParagraphsApp from "./components/CustomParagraphsApp";
 
 const Main = hot(() => (
   <>
@@ -25,4 +28,4 @@ const Main = hot(() => (
 
 ReactDOM.render(<Main/>, document.getElementById('react-app'));
 ReactDOM.render(<CustomParagraph/>, document.getElementById('react-custom-paragraph'));
-ReactDOM.render(<CustomParagraphNew/>, document.getElementById('react-custom-paragraph-new'));
+ReactDOM.render(<CustomParagraphsApp/>, document.getElementById('react-custom-paragraph-new'));
